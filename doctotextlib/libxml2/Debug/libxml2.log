@@ -1,0 +1,171 @@
+﻿Build started 6/11/2015 3:57:54 PM.
+     1>Project "J:\Study\doctotextlib\libxml2\libxml2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\doctotext\libs\libxml2-2.9.2\buf.c" "..\..\doctotext\libs\libxml2-2.9.2\c14n.c" "..\..\doctotext\libs\libxml2-2.9.2\catalog.c" "..\..\doctotext\libs\libxml2-2.9.2\chvalid.c" "..\..\doctotext\libs\libxml2-2.9.2\debugXML.c" "..\..\doctotext\libs\libxml2-2.9.2\dict.c" "..\..\doctotext\libs\libxml2-2.9.2\DOCBparser.c" "..\..\doctotext\libs\libxml2-2.9.2\encoding.c" "..\..\doctotext\libs\libxml2-2.9.2\entities.c" "..\..\doctotext\libs\libxml2-2.9.2\error.c" "..\..\doctotext\libs\libxml2-2.9.2\globals.c" "..\..\doctotext\libs\libxml2-2.9.2\hash.c" "..\..\doctotext\libs\libxml2-2.9.2\HTMLparser.c" "..\..\doctotext\libs\libxml2-2.9.2\HTMLtree.c" "..\..\doctotext\libs\libxml2-2.9.2\legacy.c" "..\..\doctotext\libs\libxml2-2.9.2\list.c" "..\..\doctotext\libs\libxml2-2.9.2\nanoftp.c" "..\..\doctotext\libs\libxml2-2.9.2\nanohttp.c" "..\..\doctotext\libs\libxml2-2.9.2\parser.c" "..\..\doctotext\libs\libxml2-2.9.2\parserInternals.c" "..\..\doctotext\libs\libxml2-2.9.2\pattern.c" "..\..\doctotext\libs\libxml2-2.9.2\relaxng.c" "..\..\doctotext\libs\libxml2-2.9.2\runsuite.c" "..\..\doctotext\libs\libxml2-2.9.2\runtest.c" "..\..\doctotext\libs\libxml2-2.9.2\runxmlconf.c" "..\..\doctotext\libs\libxml2-2.9.2\SAX.c" "..\..\doctotext\libs\libxml2-2.9.2\SAX2.c" "..\..\doctotext\libs\libxml2-2.9.2\schematron.c" "..\..\doctotext\libs\libxml2-2.9.2\testapi.c" "..\..\doctotext\libs\libxml2-2.9.2\testAutomata.c" "..\..\doctotext\libs\libxml2-2.9.2\testC14N.c" "..\..\doctotext\libs\libxml2-2.9.2\testchar.c" "..\..\doctotext\libs\libxml2-2.9.2\testdict.c" "..\..\doctotext\libs\libxml2-2.9.2\testdso.c" "..\..\doctotext\libs\libxml2-2.9.2\testHTML.c" "..\..\doctotext\libs\libxml2-2.9.2\testlimits.c" "..\..\doctotext\libs\libxml2-2.9.2\testModule.c" "..\..\doctotext\libs\libxml2-2.9.2\testReader.c" "..\..\doctotext\libs\libxml2-2.9.2\testrecurse.c" "..\..\doctotext\libs\libxml2-2.9.2\testRegexp.c" "..\..\doctotext\libs\libxml2-2.9.2\testRelax.c" "..\..\doctotext\libs\libxml2-2.9.2\testSAX.c" "..\..\doctotext\libs\libxml2-2.9.2\testSchemas.c" "..\..\doctotext\libs\libxml2-2.9.2\testThreads.c" "..\..\doctotext\libs\libxml2-2.9.2\testThreadsWin32.c" "..\..\doctotext\libs\libxml2-2.9.2\testURI.c" "..\..\doctotext\libs\libxml2-2.9.2\testXPath.c" "..\..\doctotext\libs\libxml2-2.9.2\threads.c" "..\..\doctotext\libs\libxml2-2.9.2\tree.c" "..\..\doctotext\libs\libxml2-2.9.2\trio.c" "..\..\doctotext\libs\libxml2-2.9.2\trionan.c" "..\..\doctotext\libs\libxml2-2.9.2\triostr.c" "..\..\doctotext\libs\libxml2-2.9.2\uri.c" "..\..\doctotext\libs\libxml2-2.9.2\valid.c" "..\..\doctotext\libs\libxml2-2.9.2\xinclude.c" "..\..\doctotext\libs\libxml2-2.9.2\xlink.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlcatalog.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlIO.c" "..\..\doctotext\libs\libxml2-2.9.2\xmllint.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlmemory.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlmodule.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlreader.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlregexp.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlsave.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlschemas.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlschemastypes.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlstring.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlunicode.c" "..\..\doctotext\libs\libxml2-2.9.2\xmlwriter.c" "..\..\doctotext\libs\libxml2-2.9.2\xpath.c" "..\..\doctotext\libs\libxml2-2.9.2\xpointer.c" "..\..\doctotext\libs\libxml2-2.9.2\xzlib.c"
+         xzlib.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xpointer.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xpath.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlwriter.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlunicode.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlstring.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlschemastypes.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlschemas.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlsave.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlregexp.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlreader.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlmodule.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlmemory.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmllint.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlIO.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xmlcatalog.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xlink.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         xinclude.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         valid.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         uri.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         Generating Code...
+         Compiling...
+         triostr.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\triostr.c(194): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>j:\study\doctotext\libs\libxml2-2.9.2\triostr.c(230): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(186) : see declaration of 'strncat'
+     1>j:\study\doctotext\libs\libxml2-2.9.2\triostr.c(282): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>j:\study\doctotext\libs\libxml2-2.9.2\triostr.c(313): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>j:\study\doctotext\libs\libxml2-2.9.2\triostr.c(411): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(252) : see declaration of 'strcmpi'
+     1>j:\study\doctotext\libs\libxml2-2.9.2\triostr.c(939): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : see declaration of 'strtok'
+         trionan.c
+         trio.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\trio.c(2894): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>j:\study\doctotext\libs\libxml2-2.9.2\trio.c(3061): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         tree.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         threads.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testXPath.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testURI.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testThreadsWin32.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testThreads.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testSchemas.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testSAX.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testRelax.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testRegexp.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testrecurse.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testReader.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testModule.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testlimits.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testHTML.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testdso.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\testdso.c(4): fatal error C1083: Cannot open include file: 'libxml/xmlexports.h': No such file or directory
+         testdict.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\testdict.c(2): fatal error C1083: Cannot open include file: 'libxml/parser.h': No such file or directory
+         Generating Code...
+         Compiling...
+         testchar.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\testchar.c(10): fatal error C1083: Cannot open include file: 'libxml/parser.h': No such file or directory
+         testC14N.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testAutomata.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         testapi.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         schematron.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         SAX2.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         SAX.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         runxmlconf.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         runtest.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         runsuite.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         relaxng.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         pattern.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         parserInternals.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         parser.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         nanohttp.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         nanoftp.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         list.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         legacy.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         HTMLtree.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         HTMLparser.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         Generating Code...
+         Compiling...
+         hash.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         globals.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         error.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         entities.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         encoding.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         DOCBparser.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         dict.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         debugXML.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         chvalid.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         catalog.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         c14n.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         buf.c
+     1>j:\study\doctotext\libs\libxml2-2.9.2\libxml.h(37): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "J:\Study\doctotextlib\libxml2\libxml2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.25

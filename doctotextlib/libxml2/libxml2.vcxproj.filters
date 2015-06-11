@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\buf.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\c14n.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\catalog.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\chvalid.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\debugXML.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\dict.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\DOCBparser.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\encoding.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\entities.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\error.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\globals.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\hash.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\HTMLparser.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\HTMLtree.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\legacy.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\list.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\nanoftp.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\nanohttp.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\parser.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\parserInternals.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\pattern.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\relaxng.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\runsuite.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\runtest.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\runxmlconf.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\SAX.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\SAX2.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\schematron.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testapi.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testAutomata.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testC14N.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testchar.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testdict.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testdso.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testHTML.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testlimits.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testModule.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testReader.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testrecurse.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testRegexp.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testRelax.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testSAX.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testSchemas.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testThreads.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testThreadsWin32.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testURI.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testXPath.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\threads.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\tree.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\trio.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\trionan.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\triostr.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\uri.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\valid.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xinclude.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xlink.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlcatalog.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlIO.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmllint.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlmemory.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlmodule.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlreader.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlregexp.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlsave.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlschemas.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlschemastypes.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlstring.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlunicode.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlwriter.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xpath.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xpointer.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xzlib.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\buf.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\elfgcchack.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\enc.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\libxml.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\save.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\timsort.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\trio.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\triodef.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\trionan.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\triop.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\triostr.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\xzlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9c62e243-d9fa-4803-a0d8-27dcb7ead33a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

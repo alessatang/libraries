@@ -1,0 +1,30 @@
+﻿Build started 6/11/2015 7:14:44 PM.
+     1>Project "J:\Study\doctotextlib\iconv\iconv.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D USING_STATIC_LIBICONV /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"J:\Study\doctotextlib\obj\iconv\Debug_Win32\\" /Fd"J:\Study\doctotextlib\obj\iconv\Debug_Win32\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt iconv.c
+         iconv.c
+     1>j:\study\doctotextlib\iconv\include\utf7.h(162): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\utf7.h(331): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(39): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(57): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(65): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(80): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(48): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(92): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(143): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(248): error C2065: 'EILSEQ' : undeclared identifier
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(259): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(343): error C2065: 'EILSEQ' : undeclared identifier
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(405): error C2065: 'EILSEQ' : undeclared identifier
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(419): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(423): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(492): error C2065: 'EILSEQ' : undeclared identifier
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(504): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\loop_unicode.h(520): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\iconv.c(430): warning C4090: 'function' : different 'const' qualifiers
+     1>Done Building Project "J:\Study\doctotextlib\iconv\iconv.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.89

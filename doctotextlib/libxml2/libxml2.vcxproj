@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{62C325C6-7CCF-4F61-97F4-CD718126A8EC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libxml2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>J:\Study\libxml2-2.9.2\libxml2-2.9.2\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\buf.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\c14n.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\catalog.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\chvalid.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\debugXML.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\dict.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\DOCBparser.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\encoding.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\entities.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\error.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\globals.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\hash.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\HTMLparser.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\HTMLtree.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\legacy.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\list.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\nanoftp.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\nanohttp.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\parser.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\parserInternals.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\pattern.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\relaxng.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\runsuite.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\runtest.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\runxmlconf.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\SAX.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\SAX2.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\schematron.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testapi.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testAutomata.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testC14N.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testchar.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testdict.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testdso.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testHTML.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testlimits.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testModule.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testReader.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testrecurse.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testRegexp.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testRelax.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testSAX.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testSchemas.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testThreads.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testThreadsWin32.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testURI.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\testXPath.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\threads.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\tree.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\trio.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\trionan.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\triostr.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\uri.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\valid.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xinclude.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xlink.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlcatalog.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlIO.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmllint.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlmemory.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlmodule.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlreader.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlregexp.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlsave.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlschemas.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlschemastypes.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlstring.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlunicode.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xmlwriter.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xpath.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xpointer.c" />
+    <ClCompile Include="..\..\doctotext\libs\libxml2-2.9.2\xzlib.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\buf.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\elfgcchack.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\enc.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\libxml.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\save.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\timsort.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\trio.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\triodef.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\trionan.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\triop.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\triostr.h" />
+    <ClInclude Include="..\..\doctotext\libs\libxml2-2.9.2\xzlib.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

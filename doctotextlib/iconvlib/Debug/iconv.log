@@ -1,0 +1,48 @@
+﻿Build started 6/11/2015 4:43:16 PM.
+     1>Project "J:\Study\doctotextlib\iconv\iconv.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of iconv.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are iconv.c, include\iconv.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of relocatable.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are include\relocatable.c, relocatable.c.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt iconv.c include\genaliases.c include\genaliases2.c include\genflags.c include\gentranslit.c include\iconv.c include\relocatable.c localcharset.c relocatable.c
+         relocatable.c
+     1>j:\study\doctotextlib\iconv\relocatable.c(29): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         localcharset.c
+     1>j:\study\doctotextlib\iconv\localcharset.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         relocatable.c
+     1>j:\study\doctotextlib\iconv\include\relocatable.c(29): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+         iconv.c
+     1>j:\study\doctotextlib\iconv\include\iconv.c(21): fatal error C1083: Cannot open include file: 'iconv.h': No such file or directory
+         gentranslit.c
+     1>j:\study\doctotextlib\iconv\include\gentranslit.c(77): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+     1>j:\study\doctotextlib\iconv\include\gentranslit.c(187): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>j:\study\doctotextlib\iconv\include\gentranslit.c(191): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         genflags.c
+     1>j:\study\doctotextlib\iconv\include\genflags.c(31): error C2016: C requires that a struct or union has at least one member
+     1>j:\study\doctotextlib\iconv\include\genflags.c(32): error C2016: C requires that a struct or union has at least one member
+     1>j:\study\doctotextlib\iconv\include\genflags.c(33): error C2016: C requires that a struct or union has at least one member
+     1>j:\study\doctotextlib\iconv\include\utf7.h(162): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\utf7.h(331): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(39): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(57): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(65): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\doctotextlib\iconv\include\hz.h(80): warning C4018: '<' : signed/unsigned mismatch
+         genaliases2.c
+     1>j:\study\doctotextlib\iconv\include\genaliases2.c(55): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(716) : see declaration of 'fdopen'
+         genaliases.c
+     1>j:\study\doctotextlib\iconv\include\genaliases.c(83): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(716) : see declaration of 'fdopen'
+     1>j:\study\doctotextlib\iconv\include\genaliases.c(90): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(716) : see declaration of 'fdopen'
+         iconv.c
+     1>j:\study\doctotextlib\iconv\iconv.c(21): fatal error C1083: Cannot open include file: 'iconv.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "J:\Study\doctotextlib\iconv\iconv.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.24

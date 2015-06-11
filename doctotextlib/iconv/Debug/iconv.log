@@ -1,0 +1,122 @@
+﻿Build started 6/11/2015 5:02:05 PM.
+     1>Project "J:\Study\doctotextlib\iconv\iconv.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt iconv.c localcharset.c
+         localcharset.c
+     1>j:\study\doctotextlib\iconv\localcharset.h(23): error C2018: unknown character '0x40'
+     1>j:\study\doctotextlib\iconv\localcharset.c(78): fatal error C1083: Cannot open include file: 'configmake.h': No such file or directory
+         iconv.c
+     1>j:\study\doctotextlib\iconv\include\iconv.h(26): error C2018: unknown character '0x40'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(31): error C2018: unknown character '0x40'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(31): error C2054: expected '(' to follow 'DLL_VARIABLE'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(31): error C2085: '_libiconv_version' : not in formal parameter list
+     1>j:\study\doctotextlib\iconv\include\iconv.h(53): error C2085: 'libiconv_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(72): warning C4079: unexpected token 'string'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(72): warning C4081: expected 'newline'; found ')'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\vadefs.h(28): warning C4079: unexpected token 'string'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\vadefs.h(28): warning C4081: expected 'newline'; found ')'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\vadefs.h(50): error C2085: 'uintptr_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\vadefs.h(59): error C2085: 'va_list' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\vadefs.h(144): warning C4161: #pragma pack(pop...) : more pops than pushes
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(496): error C2085: 'size_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(503): error C2085: 'size_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(503): error C2146: syntax error : missing ',' before identifier 'rsize_t'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(512): error C2085: 'intptr_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(530): error C2085: 'ptrdiff_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(536): error C2085: 'wchar_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(541): error C2085: 'wint_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(542): error C2085: 'wctype_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(563): error C2085: 'errno_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(567): error C2085: '__time32_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(572): error C2085: '__time64_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(580): error C2085: '__time64_t' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(580): error C2146: syntax error : missing ',' before identifier 'time_t'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(635): error C2143: syntax error : missing ')' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(635): error C2085: '_invalid_parameter' : not in formal parameter list
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(635): error C2143: syntax error : missing ';' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(635): error C2059: syntax error : ')'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(642): error C2143: syntax error : missing ')' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(642): error C2143: syntax error : missing '{' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(642): error C2059: syntax error : ','
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(642): error C2059: syntax error : ')'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(2087): error C2061: syntax error : identifier 'wchar_t'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(2090): error C2059: syntax error : '}'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(2097): error C2061: syntax error : identifier 'locrefcount'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(2110): error C2143: syntax error : missing '{' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(2111): error C2059: syntax error : '}'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\crtdefs.h(2148): warning C4161: #pragma pack(pop...) : more pops than pushes
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stddef.h(46): error C2143: syntax error : missing '{' before '__cdecl'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stddef.h(47): error C2143: syntax error : missing '{' before '__cdecl'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stddef.h(71): error C2143: syntax error : missing '{' before '__cdecl'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(79): error C2061: syntax error : identifier 'libiconv_open'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(79): error C2059: syntax error : ';'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(79): error C2059: syntax error : 'type'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(89): error C2061: syntax error : identifier 'libiconv'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(89): error C2059: syntax error : ';'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(89): error C2146: syntax error : missing ')' before identifier 'cd'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(89): error C2061: syntax error : identifier 'cd'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(89): error C2059: syntax error : ','
+     1>j:\study\doctotextlib\iconv\include\iconv.h(89): error C2018: unknown character '0x40'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(89): error C2059: syntax error : ')'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(95): error C2146: syntax error : missing ')' before identifier 'cd'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(95): error C2061: syntax error : identifier 'cd'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(95): error C2059: syntax error : ';'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(95): error C2059: syntax error : ')'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(107): error C2018: unknown character '0x40'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(128): error C2018: unknown character '0x40'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(142): error C2146: syntax error : missing ')' before identifier 'cd'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(142): error C2061: syntax error : identifier 'cd'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(142): error C2059: syntax error : ';'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(142): error C2059: syntax error : ','
+     1>j:\study\doctotextlib\iconv\include\iconv.h(142): error C2059: syntax error : ')'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(147): error C2146: syntax error : missing ')' before identifier 'wc'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(147): error C2061: syntax error : identifier 'wc'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(147): error C2059: syntax error : ';'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(147): error C2059: syntax error : ','
+     1>j:\study\doctotextlib\iconv\include\iconv.h(147): error C2059: syntax error : ')'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(151): error C2061: syntax error : identifier 'iconv_wide_char_hook'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(153): error C2059: syntax error : '}'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(160): error C2146: syntax error : missing ')' before identifier 'inbufsize'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(160): error C2081: 'size_t' : name in formal parameter list illegal
+     1>j:\study\doctotextlib\iconv\include\iconv.h(160): error C2061: syntax error : identifier 'inbufsize'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(160): error C2059: syntax error : ';'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(160): error C2059: syntax error : ','
+     1>j:\study\doctotextlib\iconv\include\iconv.h(171): error C2146: syntax error : missing ')' before identifier 'buflen'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(171): error C2081: 'size_t' : name in formal parameter list illegal
+     1>j:\study\doctotextlib\iconv\include\iconv.h(171): error C2061: syntax error : identifier 'buflen'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(171): error C2059: syntax error : ';'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(171): error C2059: syntax error : ','
+     1>j:\study\doctotextlib\iconv\include\iconv.h(172): error C2059: syntax error : ')'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(174): error C2059: syntax error : ')'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(175): error C2018: unknown character '0x40'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(204): error C2016: C requires that a struct or union has at least one member
+     1>j:\study\doctotextlib\iconv\include\iconv.h(204): error C2061: syntax error : identifier 'iconv_unicode_mb_to_uc_fallback'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(205): error C2061: syntax error : identifier 'uc_to_mb_fallback'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(205): error C2059: syntax error : ';'
+     1>j:\study\doctotextlib\iconv\include\iconv.h(209): error C2059: syntax error : '}'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(235): error C2143: syntax error : missing ')' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(235): error C2143: syntax error : missing '{' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(235): error C2059: syntax error : ','
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(235): error C2059: syntax error : ')'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(238): error C2143: syntax error : missing '{' before '__cdecl'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(238): error C2146: syntax error : missing ')' before identifier '_Handler'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(238): error C2061: syntax error : identifier '_Handler'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(238): error C2059: syntax error : ';'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(238): error C2059: syntax error : ')'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(239): error C2143: syntax error : missing '{' before '__cdecl'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(255): error C2143: syntax error : missing '{' before '__cdecl'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(256): error C2143: syntax error : missing '{' before '__cdecl'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(270): error C2143: syntax error : missing '{' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(272): error C2143: syntax error : missing '{' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(276): error C2143: syntax error : missing '{' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(290): error C2143: syntax error : missing '{' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(307): error C2143: syntax error : missing '{' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(312): error C2143: syntax error : missing '{' before '*'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(339): error C2143: syntax error : missing '{' before '__cdecl'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(339): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "J:\Study\doctotextlib\iconv\iconv.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.40
